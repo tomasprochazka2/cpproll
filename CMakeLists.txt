@@ -5,7 +5,7 @@ set (roll_VERSION_MAJOR 0)
 set (roll_VERSION_MINOR 1)
 
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -Wall -Wno-int-in-bool-context")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -Wall -Wno-int-in-bool-context -std=c++11")
 
 option(HELLOWORLD "Salute toggle" ON)
 

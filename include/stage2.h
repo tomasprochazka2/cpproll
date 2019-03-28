@@ -13,6 +13,8 @@
 #include <regex>
 #include "options.h"
 
+#include <map>
+
 /**
 * parsing and hashing worker
 */
